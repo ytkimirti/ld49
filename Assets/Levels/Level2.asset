@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f101058a830aea64fba5cd28144a1dca, type: 3}
+  m_Name: Level2
+  m_EditorClassIdentifier: 
+  stages:
+  - name: 
+    bossText: I wan't an office building just for myself.
+    bossTalkFace: 
+    bossNormalFace: 
+    placables: rrlrr
+    enableMinHeight: 0
+    minHeight: 6
+  - name: window
+    bossText: Actually, an office building needs windows. Be carefull when installing
+      them they do need some force.
+    bossTalkFace: 
+    bossNormalFace: 
+    placables: ww
+    enableMinHeight: 0
+    minHeight: 0
+  - name: 
+    bossText: Maybe one more floor.
+    bossTalkFace: 
+    bossNormalFace: 
+    placables: lrrlrrr
+    enableMinHeight: 1
+    minHeight: 7
+  - name: 
+    bossText: Windows windows
+    bossTalkFace: 
+    bossNormalFace: 
+    placables: ssww
+    enableMinHeight: 0
+    minHeight: 11.7
+  levelEndText: Whoa that looks amazing

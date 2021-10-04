@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f101058a830aea64fba5cd28144a1dca, type: 3}
+  m_Name: Level3
+  m_EditorClassIdentifier: 
+  stages:
+  - name: 
+    bossText: Just give me a good old sturdy tower.
+    bossTalkFace: 
+    bossNormalFace: 
+    placables: rrlrrlrrl
+    enableMinHeight: 1
+    minHeight: 7.4
+  - name: 
+    bossText: It's kinda dark at night without electricity. I need a generator at
+      the ceiling.
+    bossTalkFace: 
+    bossNormalFace: 
+    placables: g
+    enableMinHeight: 0
+    minHeight: 0
+  - name: 
+    bossText: Oops, dont let it go!
+    bossTalkFace: 
+    bossNormalFace: 
+    placables: rrl
+    enableMinHeight: 1
+    minHeight: 7
+  - name: 
+    bossText: Actually, I need one every floor.
+    bossTalkFace: 
+    bossNormalFace: 
+    placables: ggg
+    enableMinHeight: 0
+    minHeight: 11.7
+  levelEndText: Not dark anymore, It might collapse tho...
