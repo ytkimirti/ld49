@@ -1,8 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using UnityEngine.Assertions;
+using UnityEngine.Serialization;
+using UnityEngine.Assertions;
 
 public class Fader : MonoBehaviour
 {
@@ -18,6 +22,7 @@ public class Fader : MonoBehaviour
 	{
 		main = this;
 
+		print("hello world");
 
 	}
 

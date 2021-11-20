@@ -13,6 +13,7 @@ public class BossController : MonoBehaviour
 
 	[Space]
 
+	// TODO: Rename these
 	public float moveSpeed;
 	public float rotateSpeed;
 
